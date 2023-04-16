@@ -27,6 +27,7 @@ def banner():
        ''')
  
 class menu:
+  clear()
   banner()
   try:
     sky = '# penambah subscribe YT gratis'
