@@ -1,4 +1,4 @@
-import os,sys,json,time,requestshttps://fireliker.com/index.php?info=Account_Limited
+import os,sys,json,time,requests
 import threading
 from rich.table import Table as me
 from rich.console import Console as sol
