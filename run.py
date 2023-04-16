@@ -1,4 +1,4 @@
-import os,sys,json,time
+import os,sys,json,time,requestshttps://fireliker.com/index.php?info=Account_Limited
 import threading
 from rich.table import Table as me
 from rich.console import Console as sol
@@ -9,6 +9,7 @@ from rich.panel import Panel as nel
 from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
+
 
 def update():
   os.system('git pull')
@@ -34,7 +35,7 @@ class menu:
     sky2 = mark(sky, style='green')
     sol().print(sky2, style='cyan')
     panda=input('masukan ID YT ANDA:')
-    os.system('xdg-open https://www.ytpals.com/login/')
+    r=requests.get('https://fireliker.com/index.php?info=Account_Limited')
   except KeyError:
     print('ulang source')
     
