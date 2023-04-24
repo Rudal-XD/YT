@@ -35,7 +35,7 @@ class menu:
     sky2 = mark(sky, style='green')
     sol().print(sky2, style='cyan')
     panda=input('masukan ID YT ANDA:')
-    r=requests.get('https://fireliker.com/index.php?info=Account_Limited')
+
   except KeyError:
     print('ulang source')
     
