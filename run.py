@@ -21,9 +21,9 @@ init(autoreset=True)
 
 st = speedtest.Speedtest()
 
-st.download()  # Get downloading speed
+st.download()  # Loading...
 
-for i in tqdm(range(10), colour="cyan", desc="Getting Download Speed"):
+for i in tqdm(range(10), colour="cyan", desc="Loading..."):
 
     sleep(0.20)
 
