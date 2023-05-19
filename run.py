@@ -9,7 +9,23 @@ from rich.panel import Panel as nel
 from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
+import speedtest
 
+from time import sleep
+
+from tqdm import tqdm
+
+from colorama import Fore, init
+
+init(autoreset=True)
+
+st = speedtest.Speedtest()
+
+st.download()  # Get downloading speed
+
+for i in tqdm(range(10), colour="cyan", desc="Getting Download Speed"):
+
+    sleep(0.20)
 
 def update():
   os.system('git pull')
